@@ -27,8 +27,8 @@ namespace ConsoleApp2
 
         static void PrintResult(double area, double perimeter)
         {
-            Console.WriteLine($"Area      : {area:f1}");
-            Console.WriteLine($"Perimieter: {perimeter:f1}");
+            Console.WriteLine($"Area      : {area:f2}");
+            Console.WriteLine($"Perimieter: {perimeter:f2}");
         }
 
         static void Main(string[] args)
