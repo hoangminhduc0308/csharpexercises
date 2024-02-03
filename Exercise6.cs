@@ -26,8 +26,8 @@ namespace ConsoleApp2
 
         static void PrintFeetAndInches(ref double feet, ref double inches)
         {
-            Console.WriteLine($"Number of feet: {feet}");
-            Console.WriteLine($"Number of inches: {inches}");
+            Console.WriteLine($"Number of feet: {feet:f2}");
+            Console.WriteLine($"Number of inches: {inches:f2}");
         }
 
         static void Main(string[] args) 
