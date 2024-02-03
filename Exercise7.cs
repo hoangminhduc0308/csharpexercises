@@ -15,7 +15,7 @@ namespace ConsoleApp2
             Console.Write("Enter charge (before taxes): ");
             charge = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine($"Tax:                  ${(charge * tax):f2}");
-            charge = charge * (1 + tax);
+            charge = charge * (1 + tax); //print out tax early, later than this would miscalculate
             
             Console.WriteLine($"Tip of 15%:           ${(charge * tip15):f2}");
             Console.WriteLine($"Total (with 15% tip): ${(charge * (1 + tip15)):f2}");
